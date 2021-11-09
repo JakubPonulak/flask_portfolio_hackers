@@ -119,16 +119,15 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
         <p class="stockExchange" id="stockExchangerFlavorText">error</p> <!-- Flavor Text ticker -->
         <p class="stockExchange" id="stockExchangerUI">error</p> <!-- Interactive UI -->
     </div>
-
-    <p class="test0" id="test0">null</p> <!-- Used for verifying the game loop is running-->
-    <p class="test0" id="test6">null</p> <!-- Used for time-->
-    <p class="test0" id="test1">null</p> <!-- Used for verifying mouse action-->
-    <p class="test0" id="test2">null</p> <!-- Used for verifying mouse movement-->
-    <p class="test0" id="test3">null</p> <!-- Used for testing with an array-->
-    <p class="test0" id="test4">null</p> <!-- Used for testing with an array-->
-    <p class="test0" id="test5">null</p> <!-- Used for testing with an array-->
-    <p class="test0" id="test7">null</p> <!-- Used for testing with an array-->
-    <p class="test0" id="test8">null</p> <!-- Used for testing with an array-->
+    <!--<p class="test0" id="test0">null</p> <!-- Used for verifying the game loop is running-->
+    <!--<p class="test0" id="test6">null</p> <!-- Used for time-->
+    <!--<p class="test0" id="test1">null</p> <!-- Used for verifying mouse action-->
+    <!--<p class="test0" id="test2">null</p> <!-- Used for verifying mouse movement-->
+    <!--<p class="test0" id="test3">null</p> <!-- Used for testing with an array-->
+    <!--<p class="test0" id="test4">null</p> <!-- Used for testing with an array-->
+    <!-- <p class="test0" id="test5">null</p> <!-- Used for testing with an array-->
+    <!--<p class="test0" id="test7">null</p> <!-- Used for testing with an array-->
+    <!--<p class="test0" id="test8">null</p> <!-- Used for testing with an array-->
     <a href="/main_page">Home</a> <!-- Takes you to home page-->
 
 </div>
@@ -138,7 +137,7 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
 
     let ticks = 0 // To prove the loop is running
     let hour = 0 // To prove the loop is running
-    let stepTime = 100 // Time for one hour to go by
+    let stepTime = 10 // Time for one hour to go by
 
     let seed = Math.random() // Starting seed to seed everything else
 
@@ -166,7 +165,7 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
     // 1. Company name / 2. Stock Price / 3. Slogan / 4. Bad Thing / 5. Bad Thing / 6. Neutral Thing / 7. Neutral Thing / 8. Good Thing / 9. Good Thing / 10. Page break (not important)
 
     let stockData = [
-        ["Candy Morse", "Stock price", 0, "Volatility", "Lifespan", "Highpoint", "Low-point", "Serving candy since white vans were a thing!", "One wrong order and we lose money?", "This business isn't as sweet as they said it would be...", "I mean, I guess it could be worse.", "Thing are going well. I hope I didn't Jinx myself.", "Our company is finally getting the credit it deserves!", "If this keeps up, I might buy myself a yacht!", "<br>"],
+        ["Candy Morse", "Stock price", 0, "Volatility", "Lifespan", "Highpoint", "Low-point", "Serving candy since white vans were a thing!", "One wrong order and we lose money?' ' ' '", "This business isn't as sweet as they said it would be...", "I mean, I guess it could be worse.", "Thing are going well. I hope I didn't Jinx myself.", "Our company is finally getting the credit it deserves!", "If this keeps up, I might buy myself a yacht!", "<br>"],
         ["Ramanujan's Perfect Gelato", "Stock price", 0, "Volatility", "Lifespan", "Highpoint", "Low-point", "Replacing Frost since 2021", "I guess adding mustard as a flavor wasn't a good idea.","Brain freeze isn't good for business.", "At least we aren't losing any money.", "Gelato is always popular.", "We might need to add a couple new locations!", "Money is raining down on us!", "<br>"],
         ["Moore's Chicken", "Stock price", 0, "Volatility", "Lifespan", "Highpoint", "Low-point", "Better than KFC!", "Those new three-legged chickens aren't selling too well.", "Apparently, we're not better than KFC...", "Just a regular day, looks like.", "Selling chicken pays pretty well.", "Take that, Colonel Sanders!", "And they said chicken was overrated. Look at us now!", "<br>"],
         ["Jakub's Fishies", "Stock price", 0, "Volatility", "Lifespan", "Highpoint", "Low-point", "The fishiest fish on the market","Those blasted whales are stealing all our goods!","I don't think our fish taste good...","Fishing is fun only when you make money","Hopefully this new species of see-through fish will sell.","As a certain crab once said, Money Money Money!","All this fish money makes me feel good.", "<br>"],
@@ -266,6 +265,7 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
     function addStockToList() {
         stockList.push(-1)
         createStock((stockList.length - 1))
+        stockInventory.push(3)
     }
 
     nextCurrentStock()
@@ -313,8 +313,8 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
         // document.getElementById('test3').innerHTML = ;
         document.getElementById('test4').innerHTML = currentStock;
         document.getElementById('test5').innerHTML = stockList;
-        document.getElementById('test7').innerHTML = stockData[currentStockGraphed][5] + " " + stockData[currentStockGraphed][6];
-        document.getElementById('test8').innerHTML = flavorTextBar
+        document.getElementById('test7').innerHTML = stockInventory;
+        document.getElementById('test8').innerHTML = flavorTextBar;
     }
 
     function findPointModifiers(x) {
@@ -427,6 +427,7 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
         for (let i = 0; i < 60; i++) {
             flavorData = flavorData.concat("—")
         }
+
         flavorData = flavorData.concat("<br>")
         flavorData = flavorData.concat(flavorTextBar.substring(0, 60))
 
@@ -485,6 +486,17 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
         updateFlavorTextBar()
         updateUI()
 
+    }
+
+    function recalculateWealth() {
+        money = liquid
+
+        for (let i = 0; i < stockList.length; i++) {
+            let z = 49 + hour - stockData[stockList[i]][2]
+            money += stockInventory[i] * (stockData[stockList[i]][1] * findPointModifiers((z + 10) / stockData[stockList[i]][4])[0] + ((stockData[stockList[i]][3] * stackNoise(z, 4) / 2) * findPointModifiers((z + 10) / stockData[stockList[i]][4])[1]))
+        }
+
+        money = money.toFixed(2)
     }
 
     function updateWindowPositions() {
@@ -593,7 +605,7 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
 
     function thread() { // Game loop
         elapseTime(); // Timing
-        test(); // Tests loop activity
+        //test(); // Tests loop activity
         updateWindowPositions();
 
         setTimeout(function(){ thread(); }, 15); // Loops tick
@@ -602,6 +614,8 @@ Issue #3 : Feeling to lazy to implement point modifier for stacking interpolated
 
     function slowThread() {
         updateGraphAndDisplay();
+        recalculateWealth();
+        updateUI()
     }
 
     slowThread()
