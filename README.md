@@ -1,9 +1,18 @@
 
 # Number 1 Hackers
+## Table of Contents:
+1. [Weeks 1,2](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-12-code-tangibles)
+2. [Weeks 3,4](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-34-code-tangibles)
+3. [Weeks 5,6](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-56-code-tangibles)
+4. [Weeks 7,8](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-78-code-tangibles)
+5. [Weeks 9, 10](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-910-code-tangibles)
+6. [Draft N@TM Final](https://github.com/JakubPonulak/flask_portfolio_hackers#draft-ntm-final-tri-1)
+7. [N@TM Presentation & Exploration](https://github.com/JakubPonulak/flask_portfolio_hackers/blob/main/README.md#ntm-presentation--exploration)
 ## Our Purpose:
 The purpose of our website is to educate Del Norte students and other readers about weather phenomena. Weather affects everyone, including high school students. Though everyone knows what weather is, not everyone knows a lot of information about it. We aim to teach users by giving them a fun and interactive way to learn more about aspects of weather such as the Sun or Clouds. In addition, we strive to show users what we have learned in "Computer Science: Principles" through our technical pages, such as our mini-labs. 
 ## Project History: 
 We started creating our website at the beginning of the trimester. As time passed we added more pages and programs, starting with the "About Me" section, and ending with our "Night At the Musuem" showcases. As time went on, our pages became more complex as a result of the lessons we were given. Through comparing our first pages to our newest ones, the user can see the amount of knowledge we have gained, and how we applied it to our website.
+Screen Shot 2021-11-12 at 10.27.53 AM<img width="1425" alt="image" src="https://user-images.githubusercontent.com/89219726/141516764-125cd365-829e-41fb-a840-935b32a77df9.png">
 ## Contributors:
 Team Member | Anika | Jakub | Tristan | Vunsh |
 --- | --- | --- | --- | ---
@@ -17,14 +26,6 @@ GitHub profile: | [Link](https://github.com/anika1sharma1) | [Link](https://gith
 ### [Old Scrum Board](https://github.com/JakubPonulak/flask_portfolio/projects/1)
 ## [Team Journal](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.p)
 ## [Documentation](https://docs.google.com/document/d/12Wc6Z9wMwf0dZz3SWHhZ5onLveiV20Ybi1M7fdX0deA/edit?usp=sharing)
-## Table of Contents:
-1. [Weeks 1,2](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-12-code-tangibles)
-2. [Weeks 3,4](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-34-code-tangibles)
-3. [Weeks 5,6](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-56-code-tangibles)
-4. [Weeks 7,8](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-78-code-tangibles)
-5. [Weeks 9, 10](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-910-code-tangibles)
-6. [Draft N@TM Final](https://github.com/JakubPonulak/flask_portfolio_hackers#draft-ntm-final-tri-1)
-7. [N@TM Presentation & Exploration](https://github.com/JakubPonulak/flask_portfolio_hackers/blob/main/README.md#ntm-presentation--exploration)
 ## Time Box:
 ### Sprint 1,2 (code tangibles)
 1. Greet integration in "about me" pages: [Anika](templates/about_us/anika.html), [Jakub](templates/about_us/jakub.html), [Tristan](templates/about_us/tristan.html), [Vunsh](templates/about_us/vunsh.html)
