@@ -83,6 +83,10 @@ Jakub | Weather Checker & Tips Page | [Link](https://github.com/JakubPonulak/fla
 Tristan | Weather Stock Video Game | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/14) |
 Vunsh | API Communication and CSS cchanges based on response | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/15) |
 
+### N@TM Presentation & Exploration
+
+[link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19)
+
 ### Scores (9/3/21)
 Team: 4/4   
 Jakub: 3.5/4  
