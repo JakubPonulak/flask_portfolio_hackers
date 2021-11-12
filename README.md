@@ -14,6 +14,7 @@ The purpose of our website is to educate Del Norte students and other readers ab
 We started creating our website at the beginning of the trimester. As time passed we added more pages and programs, starting with the "About Me" section, and ending with our "Night At the Musuem" showcases. As time went on, our pages became more complex as a result of the lessons we were given. Through comparing our first pages to our newest ones, the user can see the amount of knowledge we have gained, and how we applied it to our website.
 
 <img width="1425" alt="image" src="https://user-images.githubusercontent.com/89219726/141516764-125cd365-829e-41fb-a840-935b32a77df9.png">
+
 ## Contributors:
 Team Member | Anika | Jakub | Tristan | Vunsh |
 --- | --- | --- | --- | ---
