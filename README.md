@@ -24,6 +24,7 @@ GitHub profile: | [Link](https://github.com/anika1sharma1) | [Link](https://gith
 4. [Weeks 7,8](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-78-code-tangibles)
 5. [Weeks 9, 10](https://github.com/JakubPonulak/flask_portfolio_hackers#sprint-910-code-tangibles)
 6. [Draft N@TM Final](https://github.com/JakubPonulak/flask_portfolio_hackers#draft-ntm-final-tri-1)
+7. [N@TM Presentation & Exploration](https://github.com/JakubPonulak/flask_portfolio_hackers/blob/main/README.md#ntm-presentation--exploration)
 ## Time Box:
 ### Sprint 1,2 (code tangibles)
 1. Greet integration in "about me" pages: [Anika](templates/about_us/anika.html), [Jakub](templates/about_us/jakub.html), [Tristan](templates/about_us/tristan.html), [Vunsh](templates/about_us/vunsh.html)
