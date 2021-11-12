@@ -91,10 +91,10 @@ Vunsh | API Communication and CSS cchanges based on response | [Link](https://gi
 
 Team Member | Assignment | Issue |
 --- | --- | --- 
-Anika | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
-Jakub | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
-Tristan | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
-Vunsh | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Anika | Presenting / Exploring: Slides 92,101,104 | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Jakub | Presenting / Exploring: Slides 93-94,98,102 | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Tristan | Presenting / Exploring: Slides 95,99-100, | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Vunsh | Presenting / Exploring: Slides 96,103 | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
 
 ### Idea
 Personalized starter website
