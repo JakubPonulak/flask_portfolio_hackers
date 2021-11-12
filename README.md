@@ -93,12 +93,6 @@ Jakub | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1
 Tristan | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
 Vunsh | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
 
-### Scores (9/3/21)
-Team: 4/4   
-Jakub: 3.5/4  
-Anika: 3.5/4  
-Tristan: 3.5/4  
-Vunsh: 3.5/4
 ### Idea
 Personalized starter website
 ### Visual thoughts
