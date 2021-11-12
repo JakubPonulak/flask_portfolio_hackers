@@ -70,15 +70,15 @@ Vunsh | Weather Info: Water | [Link](https://github.com/JakubPonulak/flask_portf
 
 Team Member | Assignment | Issue | Total Score |
 --- | --- | --- | ---
-Anika | Final Video| [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | |
-Jakub | Final Video | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | |
-Tristan | Final Video | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | |
-Vunsh | Final Video | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | |
+Anika | Final Video| [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | 5.83/6 |
+Jakub | Final Video | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | 5.92/6 |
+Tristan | Final Video | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | 5.5/6 |
+Vunsh | Final Video | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) | 3.83/6 |
 
 ### Draft N@TM Final (Tri 1)
 Team Member | Assignment | Issue |
 --- | --- | --- 
-Anika | | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) |
+Anika | Surf Report API | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/13) |
 Jakub | Weather Checker & Tips Page | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/11) |
 Tristan | Weather Stock Video Game | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/14) |
 Vunsh | API Communication and CSS cchanges based on response | [Link](https://github.com/JakubPonulak/flask_portfolio_hackers/issues/15) |
