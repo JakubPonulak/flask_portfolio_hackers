@@ -85,6 +85,13 @@ Vunsh | API Communication and CSS cchanges based on response | [Link](https://gi
 
 ### N@TM Presentation & Exploration
 
+Team Member | Assignment | Issue |
+--- | --- | --- 
+Anika | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Jakub | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Tristan | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+Vunsh | Presenting / Exploring | [Link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19) |
+
 [link](https://docs.google.com/presentation/d/1TdBNp9JPyNSbcwWtPAHtlgM1XWtLP30hLIq9HZhdGtY/edit#slide=id.g1008385e187_0_19)
 
 ### Scores (9/3/21)
