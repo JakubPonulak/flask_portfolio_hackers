@@ -18,20 +18,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    response = requests.get(
-        "https://api.weatherbit.io/v2.0/current?lat=33.0167&lon=-117.1115&key=eeb67b06f33d4a3db7ae9df9d3518f4d")
-    text = response.json()
-    temp = text["data"][0]["temp"]
-    imagee = text["data"][0]["weather"]["icon"]
-    desc = text["data"][0]["weather"]["description"]
-    final = str(temp) + "°C"
-    ffinal = str(temp * 9 / 5 + 32) + "°F"
-    img = "https://www.weatherbit.io/static/img/icons/" + imagee + ".png"
+    # response = requests.get(
+    #     "https://api.weatherbit.io/v2.0/current?lat=33.0167&lon=-117.1115&key=eeb67b06f33d4a3db7ae9df9d3518f4d")
+    # text = response.json()
+    # temp = text["data"][0]["temp"]
+    # imagee = text["data"][0]["weather"]["icon"]
+    # desc = text["data"][0]["weather"]["description"]
+    # final = str(temp) + "°C"
+    # ffinal = str(temp * 9 / 5 + 32) + "°F"
+    # img = "https://www.weatherbit.io/static/img/icons/" + imagee + ".png"
 
-    if desc.lower() == "sunny":
-        return render_template("Sunny.html", temp=ffinal)
-    else:
-        return render_template("cloudy.html", temp=ffinal)
+    # if desc.lower() == "sunny":
+    #     return render_template("Sunny.html", temp=ffinal)
+    # else:
+        return render_template("cloudy.html", temp=3)
 
 
 @app.route('/main_page')
